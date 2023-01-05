@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+header{
+    position: sticky;
+    top: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(230, 186, 120);
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+}
+
+.nav-inicio{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    text-decoration: none;
+
+}
+
+.nav-inicio:hover{
+    background: grey;
+}
+
+section{
+    height: 85vh;
+}
+
+#hero{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero img{
+    width: 250px;
+    height: 250px;
+}
+
+h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+h2{
+    font-size: 2rem;
+    text-align: center;
+}
+
+.trabajos-estudios{
+    display: flex;
+    float: left;
+    padding-left: 80px;
+    margin-top: 10px;
+}
+
+.detalles{  
+    border: 5px solid rgb(72, 116, 113);
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+}
+
+.detalles img{
+    width: 70%;
+}
+
+h3{
+    padding: 5px;
+    margin-top: 0px;
+}
+
+p{
+    padding: 5px;
+    margin-top: 0px;
+}
+
+a{
+    padding: 5px;
+    margin-top: 0px;
+}
+   
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#trabajos-estudios{
+    background-color: lightgrey;
+    }
+
+#contacto{
+    background-color: lightgrey;
+}
