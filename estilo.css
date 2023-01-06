@@ -59,22 +59,36 @@ h2{
     text-align: center;
 }
 
-.trabajos-estudios{
+.trabajos{
+    width: 80%;
+    height:auto ;
     display: flex;
-    float: left;
-    padding-left: 80px;
+    justify-content: center;
+    padding-left: 20%;
+    margin-top: 30px;
+}
+
+.estudios{
+    width: 80%;
+    height:auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
     margin-top: 10px;
 }
+
 
 .detalles{  
     border: 5px solid rgb(72, 116, 113);
     border-radius: 15px;
-    width: 300px;
+    width: 200px;
     margin: 20px;
 }
 
 .detalles img{
     width: 70%;
+    height: auto;
 }
 
 h3{
@@ -98,10 +112,24 @@ a{
     margin-top: 30px;
 }
 
-#trabajos-estudios{
+#trabajos{
     background-color: lightgrey;
-    }
+    width: 100%;   
+}
+
+#estudios{
+    background-color: lightgrey;
+    width: 100%;   
+}
 
 #contacto{
     background-color: lightgrey;
 }
+
+
+@media screen and (max-width: 400px){
+    .main{
+        width: 100%;
+    }
+}
+    
